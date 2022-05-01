@@ -1,0 +1,7 @@
+Q- How java managed to be platform-independent explain?
+The meaning of platform-independent is that the java compiled code(byte code) can run on all operating systems.
+A program is written in a language that is a human-readable language. 
+It may contain words, phrases, etc which the machine does not understand. 
+For the source code to be understood by the machine, it needs to be in a language understood by machines,typically a machine-level language.
+So, here comes the role of a compiler. The compiler converts the high-level language (human language) into a format understood by the machines.
+ Therefore, a compiler is a program that translates the source code for another program from a programming language into executable code.

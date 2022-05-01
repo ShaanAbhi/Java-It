@@ -1,0 +1,15 @@
+There is major difference between Static and Non-Static Members
+        Static:
+        A static method is a method that belongs to a class, but it does not belong to an instance
+        of that class and this method can be called without the instance or object of that class.
+        Every method in java defaults to a non-static method without static keyword preceding it.
+        1.Belongs to class
+        2.Can be accessed using ClassName.memberName
+        3.Variables initialized with default values at the time of class loading.
+        4.All object of class share a single copy of static variables.
+        Non-Static:
+         A Non-static method is a method that belongs to a object.
+        1.Belongs to object
+        2.Can be accessed using object.memberName;
+        3.Non-static variable initializes with default value at the time of object creation.
+        4.Each object has one local copy of non-static variables.
